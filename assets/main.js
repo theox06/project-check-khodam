@@ -21,7 +21,7 @@ function checkKhodam(event){
                 'Siput Jalan Cepat'
             ];
             const random = Math.floor(Math.random() * khodam.length);
-            $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
+            $('#result').html(`${nama.toUpperCase()} - Koding Kamu (${khodam[random]})`);
             $('#search').val('');
         } else {
             $('#result').html(`${nama.toUpperCase()} - KOSONG`);
